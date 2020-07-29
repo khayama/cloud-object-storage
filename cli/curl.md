@@ -184,7 +184,7 @@ curl -X "DELETE" "https://(endpoint)/(bucket-name)/"
 curl -X "PUT" "https://(endpoint)/(bucket-name)/(object-key)" \
  -H "Authorization: bearer (token)" \
  -H "Content-Type: (content-type)" \
- -d "(object-contents)"
+ -T "(object-key-file)"
 ```
 {:codeblock}
 
